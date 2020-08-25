@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const Project = ({ url, pic }) => {
 	return (
-		<li className='project invisible'>
+		<li className='project'>
 			<a
 				href={url}
 				target='_blank'
