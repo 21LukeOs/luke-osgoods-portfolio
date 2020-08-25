@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.scss';
 import Nav from './components/Nav/Nav';
+import Projects from './components/Projects/Projects';
 
 function App() {
 	return (
@@ -9,9 +10,7 @@ function App() {
 			<div className='app-heading'>
 				<h1 className='fade-slide-in'>Luke Osgood</h1>
 			</div>
-      <div className='phones'>
-        
-      </div>
+      <Projects />
 		</div>
 	);
 }
