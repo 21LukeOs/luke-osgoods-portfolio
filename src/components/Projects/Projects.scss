@@ -39,12 +39,22 @@
             justify-content: space-evenly;
     z-index: 2;
 
+    @media screen and (max-width: 426px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
     li {
       max-width: 20%;
       -webkit-transition: all .2s ease-in-out;
       -o-transition: all .2s ease-in-out;
       transition: all .2s ease-in-out;
       z-index: 2;
+
+      @media screen and (max-width: 426px) {
+        max-width: 70%;
+        margin-bottom: 30px;
+      }
 
       img {
         max-width: 100%;
