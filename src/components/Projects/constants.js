@@ -12,7 +12,7 @@ export const projects = [
   {
     type: 'project2',
     label: 'Mock-up Conversion',
-    url: 'https://mockupconversion.site',
+    url: 'https://mockupconvert.site',
     pic: iphone2
   },
   {
